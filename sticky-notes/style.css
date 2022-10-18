@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   
+   
+}
+
+.notes ul li a{
+    text-decoration: none;
+    display: block;
+    background-color: #badc58;
+    width:140px;
+    height:150px;
+    margin:10px;
+    padding:10px;
+}
+
+.notes ul li a:nth-child(2){
+
+  margin-top:30px;
+
+
+
+}
+
+.notes ul {
+    list-style-type: none;
+}
+
+.notes ul{
+   
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+
+}

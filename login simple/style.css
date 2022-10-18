@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background:linear-gradient(to right,#82d8f1,#a2eeea);
+
+    
+
+}
+
+.main{
+
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width:450px;
+    height:350px;
+    background-color: white;
+    border-right:30px solid #4286f5;
+    box-sizing: border-box;
+
+}
+
+
+.card h4{
+    margin-bottom: 30px;
+    color:#4286f5;
+    font-weight:600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.input{
+    margin:40px 0px 0px 40px;
+
+}
+
+.input label{
+   
+    display: block;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color:rgb(77, 74, 74);
+
+}
+
+.input input
+{
+    outline:none;
+    border:none;
+    background-color:rgba(99, 97, 97, 0.377);
+    padding:8px;
+    width:85%;
+    border-radius:2px ;
+    font-size:14px;
+}
+
+
+
+
+.check a{
+    
+text-decoration: none;
+font-weight: 500;
+display: block;
+text-align: end;
+margin-top:-20px ;
+margin-right:40px;
+color:blue;
+}
+
+
+.check input{
+margin-top:30px;
+margin-left:40px;
+
+}
+
+
+
+button{
+    padding:10px;
+    width:80%;
+    margin-left: 40px;
+    border:none;
+    background-color: rgba(0, 0, 255, 0.836);
+    
+    color:white;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size:14px;
+    font-weight: bold;
+
+    
+}
+
+button:hover{
+    
+    background-color: #226ce4;
+    
+}

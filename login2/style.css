@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.main{
+    
+    background: linear-gradient(to right, #314755, #26a0da);
+     height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.card{
+    position: relative;
+    height:375px;
+    width: 325px;
+    background-color: white;
+}
+
+
+.card h2{
+    /* background-color: red; */
+    margin-left:60px;
+    padding:25px;
+    color:#040306
+}
+
+
+label{
+    display:block;
+    color:#383535;
+
+}
+
+
+form{
+    padding-left:20px;
+}
+
+input{
+    outline:none;
+    padding: 5px;
+    margin-top:3px;
+    width:85%;
+    height: 20px;
+    font-size:14px;
+   border:1px solid #CECECE;
+    
+}
+
+
+.password{
+    margin-top:10px;
+}
+
+
+.btn{
+
+margin-left:20px;
+}
+
+a{
+    text-decoration: none;
+    margin-top: 4px;
+    display:block;
+    color:#3498db;
+    
+}
+
+
+.btn button{
+    margin-top:25px;
+    background: linear-gradient(to right, #314755, #26a0da);
+    color:white;
+    padding:4px;
+    height:35px;
+    width:90%;
+    border:none;
+}
+
+.btn +p{
+    margin-top: 25px;
+    text-align:center;
+    /* background-color: red; */
+}
+
+.btn +p span{
+    color:#3498db;
+}
+
+
+svg{
+    position:absolute;
+    height: 30px;
+    width:30px;
+    top: 20px;;
+    right:100px;
+
+}

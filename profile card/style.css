@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.main{
+    background-color: violet;
+    height: 100vh;
+    width:100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+.card{
+    height:460px;
+    width:300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.image{
+ 
+    width:100%;
+    height:30%;
+}
+
+.image img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile{
+    height:100px;
+    width:100px;
+    background-color: red;
+    border-radius: 50%;
+    position:relative;
+    top:-70px;
+    left:85px;
+    
+}
+
+.content h3{
+    text-align: center;
+    margin-top: -70px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    text-transform: capitalize;
+    
+    
+}
+
+.follow{
+    margin-top: 15px;
+    display: flex;
+    column-gap: 60px;
+    margin-left: 50px;
+    text-align: center;
+    
+}
+
+.content >p{
+
+    text-transform: capitalize;
+    text-align:center;
+    color:gray;
+}
+.content p span{
+   color:blue;
+   display: block;
+   font-weight: 600;
+   align-items: center;  
+}
+
+span{
+    margin-bottom: 5px;
+}
+.content .follow p{
+    color:gray;
+}
+
+.content{
+    padding:20px 30px;
+    padding-bottom:30px ;
+}
+
+.user p{
+color:gray;
+text-align: center;
+text-transform: capitalize;
+padding-top: 15px;
+
+}
+button{
+    padding:10px;
+    width:100%;
+    height:40px;
+    margin-top:20px;
+    background-color: yellow;
+    border:none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.content >p{
+    margin-top:15px;
+display: flex;
+text-align: justify;
+}
+
+
+
+
+
+
+
+

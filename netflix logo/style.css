@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:white;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:350px;
+    width:350px;
+    border-radius: 40px;
+}
+
+
+
+
+
+.logo .bar1,.bar2,.bar3{
+    height:300px;
+    width:50px;
+   
+   margin-right: 5px;
+}
+
+.bar1,.bar3{
+    background-color: rgba(247, 0, 0, 0.61);
+}
+
+.bar2{
+    background-color: rgb(255, 1, 1);
+}
+
+.logo .bar3{
+    margin-right: 20px;
+}
+
+.logo .bar2{
+    /* transform: rotate(-20deg); */
+    transform: skewX(20deg);
+}
+
+
+.banner h1{
+    
+/* background-color: red; */
+
+margin-top: 40px;
+text-align: center;
+letter-spacing: 10px;
+
+
+
+
+
+
+
+}
